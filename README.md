@@ -15,11 +15,16 @@
   - HH: hitting the floor with a hammer
   - CD: dragging a chair on the floor
   - VC: vacuum cleaner
+- They are subset of source types which could annoy residents in an apartment complex reported in the  [reference.](http://www.noiseinfo.or.kr/about/data_view.jsp?boardNo=199&keyfield=whole&keyword=&pg=1)
 - MB, HD, HH, CD were generated at the nine different locations (source locations) as indicated in the building section and floor plan
 
 
 ![](https://github.com/yodacatmeow/SNU-B36-50/blob/master/figure/bldg-sec-floorplan.png)
 
+- Since VC is not audible to a person at the receiver position when it is generated on the first and the third floor, it was generated only on the second floor
+- The following figure shows log-scaled Mel-spectrogram of all categories of the dataset. The vertical label and horizontal label indicate source type and source location, respectively
+
+![](https://github.com/yodacatmeow/SNU-B36-50/blob/master/figure/log-scaled-mel-spec.png)
 
 
 
@@ -35,15 +40,14 @@ audio
    |-- 038
 ```
 
-- "metadata": This folder includes meta-data (.csv format). Also, when we convert audio files into TF(time-frequency)-patches, they will be saved into here in (.p format) referring the meta-data
-- "result": This folder includes test accuracy reports (.csv format) and confusion matrices of them (.csv format)
+- "metadata": This folder includes meta-data (.csv format)
 
 
 
 
 ## Quick start
 
-- Clone this project
+- Clone this project:  ```git clone https://github.com/yodacatmeow/SNU-B36-50.git ``` 
 
 
 
@@ -53,6 +57,8 @@ audio
 
 Hwiyong Choi, Seungjun Lee, Haesang Yang, and Woojae Seong. (2018, September). Classification of Noise between Floors in a Building Using Pre-trained Deep Convolutional Neural Networks. In *Acoustic Signal Enhancement (IWAENC), 2016 IEEE International Workshop on* (pp. 1-5). IEEE.
 
+
+
 ## License
 
-[License](https://github.com/yodacatmeow/VGG16_SNUB36-50/blob/master/LICENSE)
+[License](https://github.com/yodacatmeow/SNU-B36-50/blob/master/LICENSE)
