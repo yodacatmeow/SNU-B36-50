@@ -18,7 +18,7 @@
 - MB, HD, HH, CD were generated at the nine different locations (source locations) as indicated in the building section and floor plan
 
 
-![https://github.com/yodacatmeow/SNU-B36-50/blob/master/figure/bldg-sec-floorplan.png]()
+![](https://github.com/yodacatmeow/SNU-B36-50/blob/master/figure/bldg-sec-floorplan.png)
 
 
 
@@ -55,4 +55,4 @@ Hwiyong Choi, Seungjun Lee, Haesang Yang, and Woojae Seong. (2018, September). C
 
 ## License
 
-[](https://github.com/yodacatmeow/VGG16_SNUB36-50/blob/master/LICENSE)
+[License](https://github.com/yodacatmeow/VGG16_SNUB36-50/blob/master/LICENSE)
