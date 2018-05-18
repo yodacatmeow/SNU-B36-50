@@ -30,14 +30,14 @@
 
 ## Contents
 
-- "audio": This folder includes audio clips. Each folder contains fifty audio clips
+- "audio": This folder includes audio clips. Each folder contains fifty audio clips ([see folder-category mapping](https://github.com/yodacatmeow/SNU-B36-50/blob/master/folder-category-mapping.txt))
 
 ```
 audio
    |-- 000
    |-- 001
      ...
-   |-- 038
+   |-- 038 
 ```
 
 - "metadata": This folder includes meta-data (.csv format)
