@@ -1,7 +1,7 @@
 # SNU-B36-50
-- This dataset was gathered for evaluation of models for source location and source type classification of noise between floors (NBF)
+- This dataset was gathered for evaluation of models for source location and source type classification of noise between floors (NBF) in a building
 - The dataset was generated and acquired in Building 36 at Seoul National University (SNU)
-- A single built-in microphone of smartphone (Samsung Galaxy S6) records the NBF with sample frequency of 44,100 Hz
+- A single built-in microphone of a smartphone (Samsung Galaxy S6) recorded the NBF with sample frequency of 44,100 Hz
 
 
 
@@ -55,10 +55,19 @@ audio
 
 ## Citing
 
-Hwiyong Choi, Seungjun Lee, Haesang Yang, and Woojae Seong. (2018, September). Classification of Noise between Floors in a Building Using Pre-trained Deep Convolutional Neural Networks. In *Acoustic Signal Enhancement (IWAENC), 2016 IEEE International Workshop on* (pp. 1-5). IEEE.
+Hwiyong Choi, Seungjun Lee, Haesang Yang, and Woojae Seong (2018). *Classification of Noise between Floors in a Building Using Pre-trained Deep Convolutional Neural Networks*.  Submitted for *Acoustic Signal Enhancement (IWAENC), 2018 IEEE International Workshop on*. IEEE.
 
 
 
 ## License
 
 [License](https://github.com/yodacatmeow/SNU-B36-50/blob/master/LICENSE)
+
+
+
+## ToDo
+
+Update the Mel-spectrogram drawing codes
+
+
+
