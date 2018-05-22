@@ -40,14 +40,18 @@ audio
    |-- 038 
 ```
 
-- "metadata": This folder includes meta-data (.csv format)
+- "metadata": This folder includes meta-data (.csv format) including *event_start* (ES, described in the reference)
+- "plot_melspec.py": You can draw a log-scaled Mel-spectrogram using this code
+  - Set ```path = "audio/FOLDER_NAME"```, where FOLDER_NAME indicates name of the folder in "audio"
 
 
 
 
 ## Quick start
 
-- Clone this project:  ```git clone https://github.com/yodacatmeow/SNU-B36-50.git ``` 
+- Clone this project:  ```git clone https://github.com/yodacatmeow/SNU-B36-50.git ```  and use it for your project
+- (**Optional*) Requirements (for drawing log scaled Mel-spectrogram)
+  - Numpy, librosa, and Matplotlib
 
 
 
@@ -62,12 +66,6 @@ Hwiyong Choi, Seungjun Lee, Haesang Yang, and Woojae Seong (2018). *Classificati
 ## License
 
 [License](https://github.com/yodacatmeow/SNU-B36-50/blob/master/LICENSE)
-
-
-
-## ToDo
-
-Update the Mel-spectrogram drawing codes
 
 
 
