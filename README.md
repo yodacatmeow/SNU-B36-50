@@ -1,7 +1,9 @@
 # SNU-B36-50
 - This dataset was gathered for evaluation of models for source location and source type classification of noise between floors (NBF) in a building
 - The dataset was generated and acquired in Building 36 at Seoul National University (SNU)
-- A single built-in microphone of a smartphone (Samsung Galaxy S6) recorded the NBF with sample frequency of 44,100 Hz
+- A single built-in microphone of a smartphone (Samsung Galaxy S6) recorded the NBF with sample frequency of 44,100 *Hz*
+- This dataset was used for the following projects
+  - [VGG16-SNU-B36-50 (project repository)](https://github.com/yodacatmeow/VGG16-SNU-B36-50) submitted for *IWAENC 2018*
 
 
 
