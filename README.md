@@ -62,7 +62,7 @@ audio
 
 ## Citing
 
-Hwiyong Choi, Seungjun Lee, Haesang Yang, and Woojae Seong (2018). *Classification of Noise between Floors in a Building Using Pre-trained Deep Convolutional Neural Networks*.  Accepted *Acoustic Signal Enhancement (IWAENC), 2018 IEEE International Workshop on*. IEEE.
+Hwiyong Choi, Seungjun Lee, Haesang Yang, and Woojae Seong (2018). *Classification of Noise between Floors in a Building Using Pre-trained Deep Convolutional Neural Networks*.  Accepted for *Acoustic Signal Enhancement (IWAENC), 2018 IEEE International Workshop on*. IEEE.
 
 
 
