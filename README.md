@@ -1,17 +1,10 @@
 # SNU-B36-50
 - This dataset was gathered for evaluation of models for noise type / position classification of floor impact noise in a building
-- The dataset was generated and acquired in Building 36 at Seoul National University (SNU)
-<<<<<<< HEAD
+- The dataset was generated and gathered in Building 36 at Seoul National University (SNU)
 - Floor impact noises are recorded with a single built-in microphone of a smartphone (Samsung Galaxy S6) with sampling frequency of 44,100 *Hz*
-- This dataset was used for the following project
-  - [VGG16-SNU-B36-50 (project repository)](https://github.com/yodacatmeow/VGG16-SNU-B36-50) for *IWAENC 2018*
-=======
-- There are fifty audio clips per category
-- A single built-in microphone of a smartphone (Samsung Galaxy S6) recorded the NBF with sample frequency of 44,100 *Hz*
+- There are 50 audio clips per category
 - This dataset was used for the following projects
   - [VGG16-SNU-B36-50 (project repository)](https://github.com/yodacatmeow/VGG16-SNU-B36-50) submitted for *IWAENC 2018*
->>>>>>> ebe9c229985f5341b4d37eb716dc2646994e5137
-
 
 
 
@@ -66,7 +59,6 @@ audio
 
 ## Citing
 
-<<<<<<< HEAD
 ```
 @inproceedings{choi2018floornoise,
   title={Classification of noise between floors in a building using pre-trained deep convolutional neural networks},
@@ -77,15 +69,8 @@ audio
   organization={IEEE}
 }
 ```
-=======
-Hwiyong Choi, Seungjun Lee, Haesang Yang, and Woojae Seong (2018). *Classification of Noise between Floors in a Building Using Pre-trained Deep Convolutional Neural Networks*.  Accepted for *Acoustic Signal Enhancement (IWAENC), 2018 IEEE International Workshop on*. IEEE.
->>>>>>> ebe9c229985f5341b4d37eb716dc2646994e5137
-
 
 
 ## License
 
 [License](https://github.com/yodacatmeow/SNU-B36-50/blob/master/LICENSE)
-
-
-
