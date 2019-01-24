@@ -4,7 +4,7 @@
 - Floor impact noises are recorded with a single built-in microphone of a smartphone (Samsung Galaxy S6) with sampling frequency of 44,100 *Hz*
 - There are 50 audio clips per category
 - This dataset was used for the following projects
-  - [VGG16-SNU-B36-50 (project repository)](https://github.com/yodacatmeow/VGG16-SNU-B36-50) submitted for *IWAENC 2018*
+  - [VGG16-SNU-B36-50 (project repository)](https://github.com/yodacatmeow/VGG16-SNU-B36-50) accepted for *IWAENC 2018*
 
 
 
