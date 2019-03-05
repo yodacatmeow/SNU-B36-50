@@ -1,7 +1,7 @@
 # SNU-B36-50
-- This dataset was gathered for evaluation of models for noise type / position classification of floor impact noise in a building
+- This dataset was gathered for evaluation of models for noise type / position classification of inter-floor noise in a building
 - The dataset was generated and gathered in Building 36 at Seoul National University (SNU)
-- Floor impact noises are recorded with a single built-in microphone of a smartphone (Samsung Galaxy S6) with sampling frequency of 44,100 *Hz*
+- Inter-floor noises are recorded with a single built-in microphone of a smartphone (Samsung Galaxy S6) with sampling frequency of 44,100 *Hz*
 - There are 50 audio clips per category
 - This dataset was used for the following projects
   - [VGG16-SNU-B36-50 (project repository)](https://github.com/yodacatmeow/VGG16-SNU-B36-50) accepted for *IWAENC 2018*
@@ -10,7 +10,7 @@
 
 ## Category
 
-- SNU-B36-50 includes 39 categories of floor impact noises
+- SNU-B36-50 includes 39 categories of Inter-floor noises
 - The categories can be divided into five noise types
   - MB: a hammer dropped from 1.2 *m* of height hitting the floor
   - HD: a hammer dropped from 1.2 *m* of height hitting the floor
@@ -24,7 +24,7 @@
 ![](https://github.com/yodacatmeow/SNU-B36-50/blob/master/figure/bldg-sec-floorplan.png)
 
 - Since VC is not audible to a person at the receiver position when it is generated on the first and the third floor, it was generated only on the second floor
-- The following figure shows log-scaled Mel-spectrogram of all categories of the dataset. The vertical label and horizontal label indicate noise type and position, respectively
+- The following figures show log-scaled Mel-spectrograms of all categories of the dataset. The vertical label and horizontal label indicate noise type and position, respectively
 
 ![](https://github.com/yodacatmeow/SNU-B36-50/blob/master/figure/log-scaled-mel-spec.png)
 
@@ -52,8 +52,6 @@ audio
 ## Quick start
 
 - Clone this project:  ```git clone https://github.com/yodacatmeow/SNU-B36-50.git ```  and use it for your project
-- (**Optional*) Requirements (for drawing log scaled Mel-spectrogram)
-  - Numpy, librosa, and Matplotlib
 
 
 
@@ -71,6 +69,3 @@ audio
 ```
 
 
-## License
-
-[License](https://github.com/yodacatmeow/SNU-B36-50/blob/master/LICENSE)
