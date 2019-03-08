@@ -14,7 +14,7 @@
 
 ## Category
 
-- Each audio clips in the dataset has two labels: noise type, noise source position
+- Each audio clip in the dataset has two labels: noise type, noise source position
 - Noise type
   - MB: a medicine ball at height 1.2 m above the floor falls and hits the floor
   - HD: a hammer at height 1.2 m above the floor falls and hits the floor
