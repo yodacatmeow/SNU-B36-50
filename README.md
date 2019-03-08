@@ -1,57 +1,29 @@
-# SNU-B36-50
-- This dataset was gathered for evaluation of models for noise type / position classification of inter-floor noise in a building
-- The dataset was generated and gathered in Building 36 at Seoul National University (SNU)
-- Inter-floor noises are recorded with a single built-in microphone of a smartphone (Samsung Galaxy S6) with sampling frequency of 44,100 *Hz*
-- There are 50 audio clips per category
-- This dataset was used for the following projects
-  - [VGG16-SNU-B36-50 (project repository)](https://github.com/yodacatmeow/VGG16-SNU-B36-50) accepted for *IWAENC 2018*
+# SNU-B36-50/SNU-B36-50E 
+- [SNU-B36-50](https://github.com/yodacatmeow/SNU-B36-50/tree/master/SNU-B36-50) is an inter-floor noise dataset gathered in Building 36 at Seoul National University
+- [SNU-B36-50E](https://github.com/yodacatmeow/SNU-B36-50/tree/master/SNU-B36-50E) is an expanded version of **SNU-B36-50**
+- Inter-floor noises are recored with a single microphone of a smartphone (Samsung Galaxy S6)
+- The sampling frequency is set as 44,100 Hz
+
+
+
+## Notice
+
+- **SNU-B36-50** and **SNU-B36-50E** will be merged into **BuildingNoiseSet** repository in near future
 
 
 
 ## Category
 
-- SNU-B36-50 includes 39 categories of Inter-floor noises
-- The categories can be divided into five noise types
-  - MB: a hammer dropped from 1.2 *m* of height hitting the floor
-  - HD: a hammer dropped from 1.2 *m* of height hitting the floor
-  - HH: hitting the floor with a hammer
-  - CD: dragging a chair on the floor
+- Each audio clips in the dataset has two labels: noise type, noise source position
+- Noise type
+  - MB: a medicine ball at height 1.2 m above the floor falls and hits the floor
+  - HD: a hammer at height 1.2 m above the floor falls and hits the floor
+  - HH: Hammering
+  - CD: chair dragging
   - VC: vacuum cleaner
-- They are subset of noise types which can annoy a resident in an apartment complex (reported in the  [reference](http://www.noiseinfo.or.kr/about/data_view.jsp?boardNo=199&keyfield=whole&keyword=&pg=1))
-- MB, HD, HH, CD were generated at the 9 different positions (source position) as indicated in the building section and floor plan
-
-
-![](https://github.com/yodacatmeow/SNU-B36-50/blob/master/figure/bldg-sec-floorplan.png)
-
-- Since VC is not audible to a person at the receiver position when it is generated on the first and the third floor, it was generated only on the second floor
-- The following figures show log-scaled Mel-spectrograms of all categories of the dataset. The vertical label and horizontal label indicate noise type and position, respectively
-
-![](https://github.com/yodacatmeow/SNU-B36-50/blob/master/figure/log-scaled-mel-spec.png)
-
-
-
-## Contents
-
-- "audio": This folder includes audio clips. Each folder contains fifty audio clips ([see folder-category mapping](https://github.com/yodacatmeow/SNU-B36-50/blob/master/folder-category-mapping.txt))
-
-```
-audio
-   |-- 000
-   |-- 001
-     ...
-   |-- 038 
-```
-
-- "metadata": This folder includes meta-data (.csv format) including *event_start* (ES, described in the reference)
-- "plot_melspec.py": You can draw a log-scaled Mel-spectrogram using this code
-  - Set ```path = "audio/FOLDER_NAME"```, where FOLDER_NAME indicates name of the folder in "audio"
-
-
-
-
-## Quick start
-
-- Clone this project:  ```git clone https://github.com/yodacatmeow/SNU-B36-50.git ```  and use it for your project
+- Noise source position
+  - SNU-B36-50 (9 positions): 1F0m, 1F6m, 1F12m, 2F0m, 2F6m, 2F12m, 3F0m, 3F6m, 3F12m
+  - SNU-B36-50 (10 positions): 3F1m, 3F2m, 3F3m, 3F4m, 3F5m, 3F7m, 3F8m , 3F9m, 3F10m, 3F11m
 
 
 
@@ -67,5 +39,3 @@ audio
   organization={IEEE}
 }
 ```
-
-
