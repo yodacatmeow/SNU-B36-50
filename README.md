@@ -8,7 +8,7 @@
 
 ## Notice
 
-- **SNU-B36-50** and **SNU-B36-50E** will be merged into **BuildingNoiseSet** repository in near future
+- **SNU-B36-50** and **SNU-B36-50E** will be merged into **indoor-noise** repository in near future
 
 
 
