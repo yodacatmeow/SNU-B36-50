@@ -4,8 +4,7 @@
 - **SNU-B36-50E** is an expanded version of **SNU-B36-50**
 - Inter-floor noises are recored with a single microphone of a smartphone (Samsung Galaxy S6)
 - The sampling frequency is set as 44,100 Hz
-
-- **SNU-B36-50** and **SNU-B36-50E** is merged into a new repository and available at [**indoor-noise**](https://github.com/yodacatmeow/indoor-noise)
+- **SNU-B36-50** and **SNU-B36-50E** is merged into a new repository and available at [**indoor-noise**](https://github.com/yodacatmeow/indoor-noise/tree/master/indoor-noise-set/SNU-B36-50E)
 
 
 
